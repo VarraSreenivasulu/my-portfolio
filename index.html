@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varra Sreenivasulu - Portfolio</title>
+    <meta name="description" content="Portfolio of Varra Sreenivasulu, Data Analyst and Machine Learning enthusiast.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>VS</text></svg>">
+</head>
+<body>
+    <!-- ===== INTRO SPLASH OVERLAY ===== -->
+    <div class="intro-overlay" id="intro-overlay">
+        <div class="intro-content">
+            <div class="intro-logo">VS</div>
+            <h2 class="intro-name">Varra Sreenivasulu</h2>
+            <p class="intro-role">Data Analyst &amp; ML Enthusiast</p>
+            <button class="intro-btn" id="intro-enter">
+                <span>Enter Portfolio</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Varra<span>.</span></a>
+            
+            <nav class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#training" class="nav-link">Training</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                    <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="hero-text animate-fade-in">
+                    <span class="label">Data Analytics • Machine Learning</span>
+                    <h1 class="headline">Hi, I'm Varra Sreenivasulu</h1>
+                    <p class="tagline">I turn raw data into dashboards, predictions and decisions.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="assets/Varra_Sreenivasulu_CV.pdf" target="_blank" class="btn btn-secondary">Download CV</a>
+                    </div>
+                </div>
+                <div class="hero-visual animate-slide-in">
+                    <div class="visual-wrapper">
+                        <video 
+                            id="hero-video"
+                            src="assets/hero.mp4" 
+                            poster="assets/hero.png" 
+                            autoplay 
+                            loop 
+                            muted
+                            playsinline
+                            class="hero-media">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about" id="about">
+            <div class="container">
+                <h2 class="section-title reveal">About Me</h2>
+                <div class="about-grid reveal">
+                    <div class="about-text">
+                        <p>I am a passionate Computer Science student and aspiring Data Analyst / Data Scientist. With a strong foundation in both software engineering and data analytics, I specialize in building end-to-end machine learning pipelines and interactive data dashboards. My goal is to leverage data to uncover insights and drive impactful decisions.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <h3>2</h3>
+                            <p>Major Projects</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>250k+</h3>
+                            <p>Records Analyzed</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>16k</h3>
+                            <p>Record Dashboard</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>7.43</h3>
+                            <p>CGPA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <h2 class="section-title reveal">Skills</h2>
+                <div class="skills-grid reveal">
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <div class="chips">
+                            <span class="chip">C++</span>
+                            <span class="chip">C</span>
+                            <span class="chip">Python</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Python Libraries</h3>
+                        <div class="chips">
+                            <span class="chip">NumPy</span>
+                            <span class="chip">Pandas</span>
+                            <span class="chip">Matplotlib</span>
+                            <span class="chip">Seaborn</span>
+                            <span class="chip">Scikit-learn</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Platforms</h3>
+                        <div class="chips">
+                            <span class="chip">Microsoft Excel</span>
+                            <span class="chip">Power BI</span>
+                            <span class="chip">Git</span>
+                            <span class="chip">GitHub</span>
+                            <span class="chip">VS Code</span>
+                            <span class="chip">MySQL</span>
+                            <span class="chip">IDLE</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Core CS</h3>
+                        <div class="chips">
+                            <span class="chip">DSA</span>
+                            <span class="chip">OOP</span>
+                            <span class="chip">Computer Networks</span>
+                            <span class="chip">DBMS</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Soft Skills</h3>
+                        <div class="chips">
+                            <span class="chip">Problem-Solving</span>
+                            <span class="chip">Team Collaboration</span>
+                            <span class="chip">Adaptability</span>
+                            <span class="chip">Time Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects" id="projects">
+            <div class="container">
+                <h2 class="section-title reveal">Projects</h2>
+                <div class="projects-grid reveal">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <span class="project-date">Apr 2026 - May 2026</span>
+                            <h3>Indian House Price Prediction App</h3>
+                            <p>End-to-end ML pipeline on 250,000 Indian property listings. Compared 4 models (Linear Regression, Ridge Regression, Decision Tree, Gradient Boosting) using MAE, RMSE and R². Flask REST API with a /predict endpoint serving real-time predictions through a live web dashboard.</p>
+                            <div class="project-tags">
+                                <span>Python</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>Flask</span><span>HTML/CSS/JS</span><span>Railway</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/VarraSreenivasulu" target="_blank" class="btn btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <span class="project-date">Mar 2026 - Apr 2026</span>
+                            <h3>Flight Insights Dashboard</h3>
+                            <p>Interactive Power BI dashboard analyzing airline performance, flight trends and operational metrics. Data prepared with Power Query, measures built with DAX, insights via charts, slicers and filters.</p>
+                            <div class="project-tags">
+                                <span>Power BI</span><span>Power Query</span><span>DAX</span><span>Excel</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/VarraSreenivasulu" target="_blank" class="btn btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <span class="project-date">LPU Training Project</span>
+                            <h3>AgriInsight Pro</h3>
+                            <p>Crop Yield Intelligence Dashboard analyzing 16,000 agricultural records across 13 states, 14 crops, 3 seasons over 18 years. Built with Power Query, DAX and star-schema modeling for uncovering trends.</p>
+                            <div class="project-tags">
+                                <span>Power BI</span><span>Power Query</span><span>DAX</span><span>Star Schema</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/VarraSreenivasulu" target="_blank" class="btn btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Training & Certificates Section -->
+        <section class="section split-section" id="training">
+            <div class="container">
+                <div class="split-grid">
+                    <div class="split-col reveal">
+                        <h2 class="section-title">Training</h2>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h4>Data Analytics</h4>
+                                <span class="timeline-date">Jun 2026 - Jul 2026</span>
+                                <p class="timeline-org">Centre for Professional Enhancement, LPU</p>
+                                <p class="timeline-desc">Intensive training covering Excel, SQL, Python, Power BI, Tableau and AI-assisted tools for data preparation, analysis, reporting and BI.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="split-col reveal" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+                        <ul class="cert-list">
+                            <li>
+                                <div class="cert-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                </div>
+                                <div class="cert-info">
+                                    <strong>Python</strong> - Kaggle <span>(Sep 2026)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cert-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                </div>
+                                <div class="cert-info">
+                                    <strong>Data Science Landscape</strong> - IBM SkillsBuild <span>(Sep 2026)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cert-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                </div>
+                                <div class="cert-info">
+                                    <strong>Introduction to Data Science</strong> - Infosys <span>(Sep 2026)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cert-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                </div>
+                                <div class="cert-info">
+                                    <strong>DBMS Part 1</strong> - Infosys Wingspan <span>(Aug 2026)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cert-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                </div>
+                                <div class="cert-info">
+                                    <strong>GEN AI NASSCOM</strong> - Skill Dev Program <span>(Mar 2026)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cert-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                </div>
+                                <div class="cert-info">
+                                    <strong>Claude Platform 101</strong> - Anthropic <span>(Mar 2026)</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section education" id="education">
+            <div class="container">
+                <h2 class="section-title reveal">Education</h2>
+                <div class="timeline reveal">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <h4>B.Tech in Computer Science and Engineering</h4>
+                        <span class="timeline-date">Aug 2025 - Jul 2028</span>
+                        <p class="timeline-org">Lovely Professional University, Punjab</p>
+                        <p class="timeline-desc">CGPA: <strong>7.43</strong></p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <h4>Diploma</h4>
+                        <span class="timeline-date">Sep 2022 - Apr 2025</span>
+                        <p class="timeline-org">Global College of Engineering and Technology, Kadapa</p>
+                        <p class="timeline-desc">Percentage: <strong>77.2%</strong></p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <h4>Matriculation</h4>
+                        <span class="timeline-date">Jul 2021 - Apr 2022</span>
+                        <p class="timeline-org">Sri Chaitanya Techno School, Badvel</p>
+                        <p class="timeline-desc">Percentage: <strong>75.3%</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact" id="contact">
+            <div class="container reveal">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="contact-subtitle">Currently open for opportunities and collaborations.</p>
+                
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <a href="mailto:info.varrasreenivasulu@gmail.com" class="contact-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <span>info.varrasreenivasulu@gmail.com</span>
+                        </a>
+                        <a href="https://linkedin.com/in/varra-sreenivasulu" target="_blank" class="contact-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/VarraSreenivasulu" target="_blank" class="contact-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                    
+                    <form action="https://formspree.io/f/xbjvroqv" method="POST" class="contact-form">
+                        <!-- Formspree placeholder endpoint, can be replaced -->
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="_replyto" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Varra Sreenivasulu. Designed with <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--primary);vertical-align:middle;margin:0 4px;"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
